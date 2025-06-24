@@ -9,8 +9,8 @@ class Config(object):
     
     # Other Configs
     BOT_START_TIME = time.time()
-    OWNER    = int(os.environ.get("OWNER", "7547797705"))  # ⚠️ Required
-    SUDO = list(map(int, os.environ.get("SUDO", "7547797705").split()))  # ⚠️ Required
+    OWNER    = int(os.environ.get("OWNER", "7688993208"))  # ⚠️ Required
+    SUDO = list(map(int, os.environ.get("SUDO", "7688993208").split()))  # ⚠️ Required
     # Web Response Config
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
     PORT = int(os.environ.get("PORT", "8080"))
@@ -26,13 +26,13 @@ class Txt(object):
     SEND_TARGET_CHANNEL = """
 ( SEND THE TARGET CHANNEL LINK or USERNAME)
 
-☛ For e.g :- <code> @ </code> or <code> https://t.me/oy_rishuuu </code>
+☛ For e.g :- <code> @ </code> or <code> https://t.me/oy_babg</code>
 """
 
     SEND_SESSION_MSG = """
 ❪ SEND SESSOIN STRING ❫
 
-☛ Generate Session String form @STRING_SESSION_GENN_BOT
+☛ Generate Session String form @oy_baby
 
 
 """
